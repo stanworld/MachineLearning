@@ -1,0 +1,30 @@
+1. Plot learning curves to see whether large data set will help.
+
+2. Come up with cost function , use gradient descent to get the optimized parameters.
+
+3. When data set is large, gradient descent is computational heavy, that is why stochastic gradient descent comes to the picture.
+
+4. Gradient descent will use all the data to calculate the average in each iteration. So it is essentially a batch process.
+
+5. Stochastic gradient descent will use one sample at a time after the whole data set is randomly shuffled. It is essentially a streaming process and suitable to large data set.
+
+6. Mini-batch gradient descent: the one in the middle. 
+
+    Batch GD: use all m samples at a time
+    Stochastich GD: use 1 sample at a time
+    Mini-batch: use b (betwee 1 and m) samples at a time
+
+
+7. How to make sure stochastic gradient descent is converging? For batch, we can plot the cost functions over the number of iterations.
+   Plot the averaged cost of the last say(1000) samples.
+
+
+   step size alpha = (const1)/(numberofiterations+const2), which decreases the step size graudually to make the parameter converge.
+
+
+
+8. Online learing.
+
+
+9. Ceiling analysis: 
+    

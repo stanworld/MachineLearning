@@ -1,0 +1,5 @@
+1. Neuron networks is essentially using multiple matrix multiplications to approximiate a non linear relationship between the input vector and the output vector.
+
+2. The neuron unit is conducting logistic signoid function on the weighted input from previous layer.
+
+3. Since the OR function, AND functions, etc can all be represented by a neuron network, then all the computational operations that can be represented by a bool operation can be represented by a neuron network.

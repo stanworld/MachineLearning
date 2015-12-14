@@ -1,0 +1,7 @@
+1. content based recommendation: needs to define movie features x1(romance)=0.1, x2(action)=0.5.
+
+
+2. mean normalization to deal with the situation when movie has no ratings from a user at all.
+
+3.
+

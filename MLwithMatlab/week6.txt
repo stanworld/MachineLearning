@@ -1,0 +1,28 @@
+1. when prediction is not working:
+  try: 1) collect more training samples;
+      2) try smaller set of features;
+      3) try getting new features;
+      4) try decreasing/increasing regulization parameters.
+
+2. How to evaluate a machine learning algorithm and how to improve? Machine learning diagnostics.
+
+   Depends on bias or variances.
+   1) High bias: underfit-> training error is high and crossvalidation is also high
+   2) High variance: overfit -> training error is low and crossvalidation is high
+
+3. Learning curves: can determine the problem is a high bias or a high variance problem. Then from this, can determine which furture actions to make.(adding/removing features, collecting more samples or not?, etc).
+
+
+4. Machine learing system design:
+
+   Error analysis
+
+5. Skew data: one class is significantly smaller than the other class. So that even if the prediction error is very small, it is not necessarily good.
+
+   use: recall(True positive rate, sensitivity) and precision 
+    
+   precision-recall curve
+
+   F1 score.
+   
+  

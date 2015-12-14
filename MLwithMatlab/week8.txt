@@ -1,0 +1,5 @@
+1. Data dimension reduction used for data visualization (usually reduced to 2 or 3 dimension.
+
+2. PCA should be used to speed up algorithm, reduce disk space, etc. Try to use original data first, if not work, consider PCA.
+
+3. Before use PCA, feature scaling should be applied to normalize each feature.

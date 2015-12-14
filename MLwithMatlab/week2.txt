@@ -1,0 +1,7 @@
+1. feature scaling:
+    make the values of features almost in the same range such that gradient descent will converge fast.
+
+
+2. Mean normalization:
+   Normalize feature to have approximate zero mean.
+x1-> x1-mean/(max(x1)-min(x1)) to normalize.

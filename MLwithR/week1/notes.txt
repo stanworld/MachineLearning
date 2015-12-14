@@ -1,0 +1,4 @@
+1. How to predict?
+  problem -> input data -> features -> machine learing algorithm -> parameters -> evaluations.
+
+2. 
